@@ -3,8 +3,6 @@
 #     print(i)
 #     i += 1
     
-    
-    
 i = 100
 while i < 150:
     print(i)
