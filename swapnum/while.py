@@ -11,8 +11,6 @@
 #     i += 1
 
 
-
-
 #Multiplication table
 
 # n = int(input("Enter the number --"))
