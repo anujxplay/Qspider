@@ -13,7 +13,6 @@
 
 
 #Multiplication table
-
 # n = int(input("Enter the number --"))
 # for i in range(11):
 #     print(n,"x",i,"=",n*i)
