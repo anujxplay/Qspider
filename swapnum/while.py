@@ -25,7 +25,6 @@
 
 
 
-
 #WAP to create a list containing n natural odd numbers
 n = int(input("Enter a number: "))
 list1 = {i for i in range(1,n+1) if i%2!=0}
