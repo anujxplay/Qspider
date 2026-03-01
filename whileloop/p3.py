@@ -32,6 +32,7 @@ while i<=10:
 
 
 
+
 # WAP to print natural numbers in a given range
 #(start and end point will be provided by the user)
 
