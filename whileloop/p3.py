@@ -9,6 +9,7 @@ while i<=50:
 
 
 
+
 #2. WAP to print n natural numbers
 n=int(input("Enter a number --"))  
 i=1
