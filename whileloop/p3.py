@@ -35,7 +35,6 @@ while i<=10:
 
 start= int(input("Enter the start point--"))
 end = int(input("Enter the end point--"))
-
 while start<=end:
     print(start)
     start+=1
