@@ -16,10 +16,24 @@ while i<=n:
     i+=1    
 '''
 
-
+'''
 # WAP to print user name 10 times
 user = eval(input("Enter your number--"))
 i=1
 while i<=10:
     print(user)
     i+=1    
+'''
+
+
+
+
+# WAP to print natural numbers in a given range
+#(start and end point will be provided by the user)
+
+start= int(input("Enter the start point--"))
+end = int(input("Enter the end point--"))
+
+while start<=end:
+    print(start)
+    start+=1
