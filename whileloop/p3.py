@@ -84,7 +84,7 @@ print(fact)
 
 
 
-
+'''
 #9.  Find the product of odd digits and sum of even digits of a given number
 
 n=int(input("Enter a number: "))
@@ -95,6 +95,23 @@ while n>0:
     if ld%2==0:
         sum+=ld
     else:
+        pro*=ld
+    n//=10 
+print("sum:",sum)
+print("product:",pro)       
+'''
+
+
+
+
+#10.  WAP to find the product of digits less than 5
+
+n=int(input("Enter a number: "))
+sum= 0
+pro= 1
+while n>0:
+    ld=n%10
+    if ld<5:
         pro*=ld
     n//=10 
 print("sum:",sum)
