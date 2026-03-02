@@ -17,7 +17,7 @@ while i<=n:
 '''
 
 '''
-# WAP to print user name 10 times
+#3. WAP to print user name 10 times
 user = eval(input("Enter your number--"))
 i=1
 while i<=10:
@@ -27,13 +27,22 @@ while i<=10:
 
 
 
-
-# WAP to print natural numbers in a given range
+'''
+#4. WAP to print natural numbers in a given range
 #(start and end point will be provided by the user)
 
 start= int(input("Enter the start point--"))
 end = int(input("Enter the end point--"))
-
 while start<=end:
     print(start)
     start+=1
+'''
+
+
+#5.   WAP to print the multiplication table
+
+n = int(input("Enter the number: "))
+i=1
+while i<=10:
+    print(n,'X',i,'=',n*i)
+    i+=1
