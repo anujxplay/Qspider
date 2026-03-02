@@ -50,7 +50,7 @@ while i<=10:
 '''
 
 
-
+'''
 #6.   WAP to print n natural even numbers
 
 n = int(input("Enter the number: "))
@@ -58,3 +58,20 @@ i=2
 while i<=n:
     print(i)
     i+=2
+'''
+
+
+
+
+#7.  Odd numbers
+i=1
+while i<=50:
+    print(i)
+    i+=2   
+
+
+
+
+
+
+
