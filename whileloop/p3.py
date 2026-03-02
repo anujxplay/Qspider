@@ -39,6 +39,7 @@ while start<=end:
 '''
 
 
+'''
 #5.   WAP to print the multiplication table
 
 n = int(input("Enter the number: "))
@@ -46,3 +47,14 @@ i=1
 while i<=10:
     print(n,'X',i,'=',n*i)
     i+=1
+'''
+
+
+
+#6.   WAP to print n natural even numbers
+
+n = int(input("Enter the number: "))
+i=2
+while i<=n:
+    print(i)
+    i+=2
