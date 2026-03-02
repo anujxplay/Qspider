@@ -72,7 +72,7 @@ while i<=50:
 
 
 
-
+'''
 #8.   Factorial of a number (product of n natural no.)
 n=3
 fact = 1
@@ -80,5 +80,22 @@ while n>=1:
     fact = fact*n
     n = n-1
 print(fact)    
-    
+'''
 
+
+
+
+#9.  Find the product of odd digits and sum of even digits of a given number
+
+n=int(input("Enter a number: "))
+sum= 0
+pro= 1
+while n>0:
+    ld=n%10
+    if ld%2==0:
+        sum+=ld
+    else:
+        pro*=ld
+    n//=10 
+print("sum:",sum)
+print("product:",pro)       
