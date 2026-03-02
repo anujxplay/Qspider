@@ -62,16 +62,23 @@ while i<=n:
 
 
 
-
+'''
 #7.  Odd numbers
 i=1
 while i<=50:
     print(i)
     i+=2   
+'''
 
 
 
 
-
-
+#8.   Factorial of a number (product of n natural no.)
+n=3
+fact = 1
+while n>=1:
+    fact = fact*n
+    n = n-1
+print(fact)    
+    
 
