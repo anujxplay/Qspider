@@ -121,9 +121,8 @@ print("product:",pro)
 
 
 
-
+'''
 # WAP to count no. digits of a number
-
 n = int(input("Enter a number: "))
 count = 0
 while n > 0:
@@ -132,3 +131,16 @@ while n > 0:
         count += 1
     n = n//10
 print(count)   
+'''
+
+
+
+
+
+# WAP to extract all the strings from a list.
+list1 = eval( input(" Enter the list: "))
+i =0
+while i < len(list1):
+    if type(list1[i]) == str:
+        print(list1[i])
+    i += 1
