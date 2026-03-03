@@ -103,7 +103,7 @@ print("product:",pro)
 
 
 
-
+'''
 #10.  WAP to find the product of digits less than 5
 
 n=int(input("Enter a number: "))
@@ -116,3 +116,19 @@ while n>0:
     n//=10 
 print("sum:",sum)
 print("product:",pro)       
+'''
+
+
+
+
+
+# WAP to count no. digits of a number
+
+n = int(input("Enter a number: "))
+count = 0
+while n > 0:
+    last_digit = n % 10
+    if last_digit % 2 == 0:
+        count += 1
+    n = n//10
+print(count)   
