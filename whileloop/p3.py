@@ -84,9 +84,10 @@ print(fact)
 
 
 
-'''
-#9.  Find the product of odd digits and sum of even digits of a given number
 
+
+
+#9.  Find the product of odd digits and sum of even digits of a given number
 n=int(input("Enter a number: "))
 sum= 0
 pro= 1
@@ -99,7 +100,7 @@ while n>0:
     n//=10 
 print("sum:",sum)
 print("product:",pro)       
-'''
+
 
 
 
@@ -134,7 +135,7 @@ print(count)
 
 
 
-
+'''
 # WAP to extract all the strings from a list.
 list1 = eval( input(" Enter the list: "))
 i =0
@@ -142,3 +143,4 @@ while i < len(list1):
     if type(list1[i]) == str:
         print(list1[i])
     i += 1
+'''
