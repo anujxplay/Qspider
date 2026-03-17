@@ -118,6 +118,7 @@ print("product:",pro)
 
 
 
+
 '''
 #10.  WAP to find the product of digits less than 5
 n=int(input("Enter a number: "))
