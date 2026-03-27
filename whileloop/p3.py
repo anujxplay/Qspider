@@ -88,7 +88,6 @@ while i<=50:
 
 
 
-
 '''
 #8.   Factorial of a number (product of n natural no.)
 n=3
