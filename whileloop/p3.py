@@ -64,6 +64,7 @@ while i<=10:
 
 
 
+
 '''
 #6.   WAP to print n natural even numbers
 
