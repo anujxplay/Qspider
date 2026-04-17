@@ -52,6 +52,7 @@ while start<=end:
 
 
 
+
 '''
 #5.   WAP to print the multiplication table
 
