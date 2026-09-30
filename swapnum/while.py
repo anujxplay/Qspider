@@ -30,3 +30,9 @@ n = int(input("Enter a number: "))
 list1 = {i for i in range(1,n+1) if i%2!=0}
 print(list1)
 
+
+
+a = 1
+while a < 50:
+    print(a)
+    a += 1
