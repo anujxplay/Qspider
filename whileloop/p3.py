@@ -55,6 +55,7 @@ while start<=end:
 
 
 
+
 '''
 #5.   WAP to print the multiplication table
 n = int(input("Enter the number: "))
