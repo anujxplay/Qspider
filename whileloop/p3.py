@@ -109,6 +109,7 @@ print(fact)
 
 
 #9.  Find the product of odd digits and sum of even digits of a given number
+
 n=int(input("Enter a number: "))
 sum= 0
 pro= 1
