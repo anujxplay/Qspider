@@ -164,6 +164,8 @@ print(count)
 
 
 
+
+
 '''
 # WAP to extract all the strings from a list.
 list1 = eval( input(" Enter the list: "))
